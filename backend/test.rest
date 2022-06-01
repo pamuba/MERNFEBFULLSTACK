@@ -1,0 +1,27 @@
+POST http://localhost:3000/users/add
+Content-Type: application/json
+
+{
+  "username":"Jill"
+}
+
+###############
+
+GET http://localhost:3000/users/
+
+
+###############
+
+POST http://localhost:3000/exercises/add
+Content-Type: application/json
+
+{
+  "username":"Jill",
+  "description":"swimming",
+  "duration":30,
+  "date":"2022-06-01T19:19:55.559Z"
+}
+
+#######################
+
+GET http://localhost:3000/exercises
